@@ -1,0 +1,110 @@
+
+bresenhaim.c,171
+static int		draw_with_array1(15,910
+static int		draw_with_array2(27,1264
+static t_bresen	*initialize_variables(initialize_variables39,1618
+void			ft_put_line(52,1992
+
+check.c,156
+static int	ft_free_array(15,910
+int			ft_open_file(26,1030
+void		ft_print_error(39,1180
+static void	next_iterations(45,1252
+int			ft_check_map(65,1635
+
+draw.c,140
+#define INIT 14,909
+static void	ft_init_image(16,936
+static void	display_menu(23,1170
+static void	to_bresen(51,2328
+int			draw(78,3053
+
+fdf.c,183
+#define LEFT_R 14,909
+static t_mlx	*holder_init(holder_init16,949
+static void		reset_flags(44,1664
+static void		turn_x(54,1847
+static int		deal_key(60,1999
+int				main(89,2840
+
+free_list.c,46
+void	free_list(15,910
+void	free_all(35,1115
+
+ft_rgb_convert.c,30
+unsigned int	rgb_conv(15,910
+
+get_colour.c,53
+int		get_colour_sec(15,910
+int		get_colour(43,1593
+
+projection.c,125
+#define ANGLE_X 14,909
+void	ft_projection_iso(16,942
+void	ft_projection_other(45,1626
+void	ft_projection_default(67,2036
+
+read.c,228
+#define BUF 14,909
+#define A 15,934
+static char	*init_variables(init_variables17,955
+t_points	*ft_lst4new(ft_lst4new28,1089
+static int	coma_handle(49,1476
+static void	if_x_if_y(78,2169
+t_points	*ft_read(ft_read96,2487
+
+fdf.h,1506
+# define FDF_H14,906
+# define PI 15,921
+# define RAD 16,943
+typedef struct		s_mlx24,1100
+	void			*window;window26,1124
+	void			*init;init27,1141
+	void			*image;image28,1156
+	char			*buff;buff29,1172
+	int				colour;30,1187
+	unsigned int	width;31,1203
+	double			scale;32,1224
+	int				point_distance;33,1241
+	unsigned int	height;34,1265
+	int				map_size;35,1287
+	float			line_width;36,1305
+	int				up_down;37,1326
+	int				left_right;38,1343
+	int				angle;39,1363
+	int				angle_x;40,1378
+	unsigned int	is_angle_x:is_angle_x41,1395
+	int				high_low;42,1424
+	unsigned int	is_angle:is_angle43,1442
+	int				x1;44,1469
+	int				a;45,1481
+	int				x2;46,1492
+	int				line_height;47,1504
+	int				endian;48,1525
+	void			*img_new;img_new49,1541
+	int				bpp;50,1559
+	char			*img_addr;img_addr51,1572
+	int				size_line;52,1591
+	unsigned int	is_colour:is_colour53,1610
+	double			max;54,1638
+	struct s_coord	*copy;copy55,1653
+}					t_mlx;56,1676
+typedef struct		s_bresenhaim58,1690
+	int				signx;60,1721
+	int				signy;61,1736
+	int				error;62,1751
+	int				deltax;63,1766
+	int				deltay;64,1782
+}					t_bresen;65,1798
+typedef struct		s_coord67,1815
+	float			x;69,1841
+	float			y;70,1853
+	float			z;71,1865
+	unsigned int	first:first72,1877
+	int				colour;73,1901
+	struct s_coord	*next;next74,1917
+	t_mlx			*holder;holder75,1940
+	struct s_coord	*previous;previous76,1958
+	struct s_coord	*up;up77,1985
+	struct s_coord	*down;down78,2006
+}					t_points;79,2029

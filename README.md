@@ -27,7 +27,6 @@ Some useful keys:
  ## Have fun!
 
 ![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/4.png)
-![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/5.png)
 ![alt_text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/6.png)
 ![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/1.gif)
 ![alt text](https://github.com/DA-NDI/fdf/blob/master/Screenshots/2.gif)
